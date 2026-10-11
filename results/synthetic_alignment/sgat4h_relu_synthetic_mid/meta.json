@@ -1,0 +1,11 @@
+{
+  "dataset": "synthetic-mid",
+  "model": "gat",
+  "protocol": "graphuniverse-native-60/20/20",
+  "graph_idx": 0,
+  "split_seed": 42,
+  "edge_homophily": 0.5119478702545166,
+  "num_nodes": 500,
+  "num_classes": 10,
+  "train_size": 300
+}

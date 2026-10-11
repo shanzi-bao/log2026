@@ -1,0 +1,101 @@
+{
+  "dataset": "chameleon",
+  "architecture": "gat",
+  "seed": 42,
+  "split": {
+    "run_idx": 0,
+    "train_nodes": 409,
+    "valid_nodes": 287,
+    "test_nodes": 194
+  },
+  "checkpoint": "chameleon_gat_depth4_seed42.pt",
+  "probe": [
+    {
+      "layer": 0,
+      "entropy": 1.1385921239852905,
+      "entropy_normalized": 0.70744706284649,
+      "accuracy": 31.443297863006592,
+      "mean_neg_log_p": 1.8739920854568481
+    },
+    {
+      "layer": 1,
+      "entropy": 1.0504523515701294,
+      "entropy_normalized": 0.6526827431208168,
+      "accuracy": 42.26804077625275,
+      "mean_neg_log_p": 1.7574217319488525
+    },
+    {
+      "layer": 2,
+      "entropy": 0.9701866507530212,
+      "entropy_normalized": 0.6028108591562374,
+      "accuracy": 40.20618498325348,
+      "mean_neg_log_p": 2.11985182762146
+    },
+    {
+      "layer": 3,
+      "entropy": 0.9664069414138794,
+      "entropy_normalized": 0.6004623937013474,
+      "accuracy": 44.329896569252014,
+      "mean_neg_log_p": 1.7739835977554321
+    },
+    {
+      "layer": 4,
+      "entropy": 0.8905173540115356,
+      "entropy_normalized": 0.5533095418789562,
+      "accuracy": 41.23711287975311,
+      "mean_neg_log_p": 2.461940050125122
+    }
+  ],
+  "geometry": [
+    {
+      "layer": 0,
+      "dirichlet": 0.08637843281030655,
+      "mad": 0.9931747317314148,
+      "r_group": 1.015638906615628,
+      "saved_r_group": 1.0156389720649293
+    },
+    {
+      "layer": 1,
+      "dirichlet": 0.0370141863822937,
+      "mad": 0.5795755386352539,
+      "r_group": 1.1994813399200182,
+      "saved_r_group": 1.199481200205004
+    },
+    {
+      "layer": 2,
+      "dirichlet": 0.022876812145113945,
+      "mad": 0.41995686292648315,
+      "r_group": 1.2979704704795134,
+      "saved_r_group": 1.2979701682933809
+    },
+    {
+      "layer": 3,
+      "dirichlet": 0.021398283541202545,
+      "mad": 0.3296523690223694,
+      "r_group": 1.325537411870439,
+      "saved_r_group": 1.3255372670841374
+    },
+    {
+      "layer": 4,
+      "dirichlet": 0.03436301276087761,
+      "mad": 0.9524126648902893,
+      "r_group": 2.0324798848373415,
+      "saved_r_group": 2.0324801219985744
+    }
+  ],
+  "verification": {
+    "all_layers_rgroup_match": true,
+    "max_rgroup_relative_error": 2.3281438968563806e-07,
+    "rgroup_relative_errors": [
+      6.444150245519618e-08,
+      1.1647953648688068e-07,
+      2.3281438968563806e-07,
+      1.0922839003472531e-07,
+      1.1668563461335246e-07
+    ],
+    "strict_state_dict_loaded": true,
+    "all_train_classes_present": true,
+    "probe_source": "unmodified scores from this same saved GNN experiment"
+  },
+  "elapsed_seconds": 0.012554168701171875
+}

@@ -1,0 +1,6 @@
+# Tested with Python 3.13.4.
+numpy==2.3.0
+scipy==1.15.3
+matplotlib==3.10.3
+torch==2.7.1
+torch-geometric==2.8.0

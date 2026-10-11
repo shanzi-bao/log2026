@@ -1,0 +1,11 @@
+{
+  "dataset": "synthetic-high",
+  "model": "gcn",
+  "protocol": "graphuniverse-native-60/20/20",
+  "graph_idx": 0,
+  "split_seed": 42,
+  "edge_homophily": 0.8652234673500061,
+  "num_nodes": 500,
+  "num_classes": 10,
+  "train_size": 300
+}

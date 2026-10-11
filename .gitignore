@@ -1,0 +1,47 @@
+# Keep only the paper code, documentation, and required inputs at the root.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/LICENSE
+!/CITATION.cff
+!/src/
+!/experiments/
+!/analysis/
+!/tests/
+!/data/
+!/results/
+!/figures/
+
+# Local configuration and generated Python files.
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Large or temporary artifacts are excluded unless explicitly included below.
+*.tmp
+*.log
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Fixed benchmark inputs and saved measurements used by the paper.
+!/data/*.npz
+!/data/graphuniverse/*.pt
+!/results/trajectories/**/*.pkl
+!/results/synthetic_alignment/**/*.pkl

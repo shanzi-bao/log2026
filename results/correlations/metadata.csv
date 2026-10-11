@@ -1,0 +1,13 @@
+dataset,display,adjusted_homophily
+amazon-computer,Computer,0.68
+amazon-photo,Photo,0.79
+amazon-ratings,Ratings,0.14
+chameleon,Chameleon,0.03
+citeseer,CiteSeer,0.67
+coauthor-cs,CS,0.79
+coauthor-physics,Physics,0.87
+cora,Cora,0.77
+pubmed,PubMed,0.69
+roman-empire,Roman-Empire,-0.05
+squirrel,Squirrel,0.01
+wikics,WikiCS,0.58
